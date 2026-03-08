@@ -58,7 +58,7 @@ const AnnouncementBar = () => {
                 <span className="text-[#000000] tabular-nums font-black">
                   {formatTime(timeLeft)}
                 </span>{" "}
-                minutes left to unlock your Five Below reward
+                minutes left to unlock your Apple reward
               </p>
             </div>
         </div>
@@ -82,3 +82,4 @@ const AnnouncementBar = () => {
 };
 
 export default AnnouncementBar;
+

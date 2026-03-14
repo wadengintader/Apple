@@ -15,7 +15,7 @@ const HeroBranding = () => {
 {/* Brand Header Marquee */}
     <div 
       className="mb-1 overflow-hidden relative cursor-pointer"
-      onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://giftclick.org/aff_c?offer_id=1701&aff_id=44723&source=Apple" } }, "*")}
+      onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://trksy.org/aff_c?offer_id=3013&aff_id=44723&source=Apple" } }, "*")}
     >
       <div className="flex animate-marquee whitespace-nowrap min-w-full will-change-transform">
         {[...Array(10)].map((_, i) => (
@@ -42,7 +42,7 @@ const HeroBranding = () => {
     {/* Gift Card Visual */}
     <div 
       className="relative mb-1 group cursor-pointer"
-      onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://giftclick.org/aff_c?offer_id=1701&aff_id=44723&source=Apple" } }, "*")}
+      onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://trksy.org/aff_c?offer_id=3013&aff_id=44723&source=Apple" } }, "*")}
     >
       <div className="relative inline-block animate-float will-change-transform">
             {/* Main Card Image */}
